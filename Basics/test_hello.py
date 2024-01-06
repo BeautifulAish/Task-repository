@@ -13,7 +13,7 @@ from selenium import webdriver
 
 def test_open_login():
     driver = webdriver.Chrome()
-    #It will create a session with post request(API POST request)
+    #It will create Basics session with post request(API POST request)
     # Open fresh chrome browser, session id is created
     #Session ID - 68614348f0cb4f521b963ed00eefbd0a
     driver.get("https://app.vwo.com")

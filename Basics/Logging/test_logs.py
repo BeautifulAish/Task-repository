@@ -4,7 +4,7 @@
 # Warning to the users
 # Information to the users
 # Errors ,critical errors user
-
+from Basics import logging
 import logging
 def test_print_logs():
   LOGGER = logging.getLogger('__name__')
