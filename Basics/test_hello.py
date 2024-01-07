@@ -19,3 +19,9 @@ def test_open_login():
     driver.get("https://app.vwo.com")
     driver.maximize_window()
     print(driver.title)
+
+    time.sleep(5)
+    driver.close() #Close will close the current window(tab)
+    #It will not close other tabs
+    #Session id =! null
+    time.sleep(200)
